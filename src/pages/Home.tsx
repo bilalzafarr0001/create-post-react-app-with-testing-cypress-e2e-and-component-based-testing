@@ -10,7 +10,7 @@ const Home = () => {
 	useEffect(() => {
 		const fetchPosts = async () => {
 			try {
-				const res = await axios.get('/posts');
+				const res = await axios.get('https://jsonplaceholder.typicode.com/posts');
 				setPosts(res.data);
 			} catch (error) {
 				console.log(error);

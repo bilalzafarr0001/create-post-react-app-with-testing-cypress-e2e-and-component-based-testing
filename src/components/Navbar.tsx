@@ -14,7 +14,7 @@ const Navbar = () => {
 		<div className="navbar">
 			<div className="navbar-container">
 				<h1 className="navbar-title">
-					T<span>-</span>rant
+					Tech Trant
 				</h1>
 				<button onClick={() => setToggle(!toggle)} className="navbar-hamburger">
 					<FontAwesomeIcon icon={faBars} />

@@ -26,7 +26,7 @@ describe('Tech Trant Home page', () => {
       expect($child).to.have.text('Post title')
       expect($child).to.have.class('post-title')
     })
-    cy.get(postBody).and(($child) => {
+    cy.get(`${postBody} p`).and(($child) => {
       expect($child).to.have.class('post-desc')
     })
     // user can see the body of the post
